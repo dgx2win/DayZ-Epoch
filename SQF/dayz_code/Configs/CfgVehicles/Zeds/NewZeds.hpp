@@ -133,3 +133,74 @@
 	class z_worker3 : z_worker1 {
 		hiddenSelectionsTextures[] = {"z\addons\dayz_communityassets\zeds\overall\Overall_3_co.paa"};
 	};
+	
+	class z_rocker1 : zZombie_new_Base {
+		model = "\ca\characters2\civil\Rocker\Rocker";
+		zombieLoot = "civilian";
+		
+		class Wounds {
+			tex[] = {};
+			mat[] = {"ca\characters2\civil\rocker\data\rocker.rvmat", "ca\characters2\civil\rocker\data\w1_rocker.rvmat", "ca\characters2\civil\rocker\data\w2_rocker.rvmat", "ca\characters\heads\male\defaulthead\data\hhl_white.rvmat", "ca\characters2\civil\Rocker\data\w1_rocker.rvmat", "ca\characters2\civil\rocker\data\w2_rocker.rvmat"};
+		};
+		hiddenSelectionsTextures[] = {"ca\characters2\civil\Rocker\data\rocker_co.paa"};
+	};
+	
+	class z_rocker2 : z_rocker1 {
+		hiddenSelectionsTextures[] = {"ca\characters2\civil\Rocker\data\rocker_v2_co.paa"};
+	};
+	class z_rocker3 : z_rocker1 {
+		hiddenSelectionsTextures[] = {"ca\characters2\civil\Rocker\data\rocker_v3_co.paa"};
+	};
+	class z_rocker4 : z_rocker1 {
+		hiddenSelectionsTextures[] = {"ca\characters2\civil\Rocker\data\rocker_v4_co.paa"};
+	};
+	class z_surv1 : zZombie_new_Base {
+		model = "\Ca\Characters_PMC\Frost\Frost";
+		HiddenSelections[] = {"camo"};
+		HiddenSelectionsTextures[] = {"ca\characters_pmc\frost\data\frost_1_co.paa"};
+		zombieLoot = "survivor";
+		
+		class Wounds {
+			tex[] = {};
+			mat[] = {"Ca\Characters_PMC\Frost\Data\frost.rvmat", "Ca\Characters_PMC\Frost\Data\w1_frost.rvmat", "Ca\Characters_PMC\Frost\Data\w2_frost.rvmat"};
+		};
+	};
+	class z_surv2 : z_surv1 {
+		HiddenSelectionsTextures[] = {"ca\characters_pmc\frost\data\frost_2_co.paa"};
+	};
+	class z_surv3 : z_surv1 {
+		HiddenSelectionsTextures[] = {"ca\characters_pmc\frost\data\frost_3_co.paa"};
+	};
+	class z_bandit1 : z_surv1 {
+		model = "\dayz\characters\man_bandit";
+	};
+	class z_bandit2 : z_surv1 {
+		model = "\dayz\characters\man_bandit";
+		HiddenSelectionsTextures[] = {"ca\characters_pmc\frost\data\frost_2_co.paa"};
+	};
+	class z_bandit3 : z_surv1 {
+		model = "\dayz\characters\man_bandit";
+		HiddenSelectionsTextures[] = {"ca\characters_pmc\frost\data\frost_3_co.paa"};
+	};
+	class z_camo1 : zZombie_new_Base {
+		model = "\ca\characters_d_BAF\BAF_Soldier_light_BAF";
+		hiddenSelections[] = {"Camo", "Camo2", "Camo3"};
+		hiddenSelectionsTextures[] = {"\ca\characters_W_baf\data\camo_dpm_co.paa", "\ca\characters_W_baf\data\armour_dpm_co.paa", "\ca\characters_W_baf\data\equip_dpm_co.paa"};
+		zombieLoot = "survivor";
+		
+		class Wounds {
+			tex[] = {};
+			mat[] = {"ca\characters_d_baf\Data\armour.rvmat", "ca\characters_d_baf\Data\W1_armour.rvmat", "ca\characters_d_baf\Data\W2_armour.rvmat", "ca\characters_d_baf\Data\camo.rvmat", "ca\characters_d_baf\Data\W1_camo.rvmat", "ca\characters_d_baf\Data\W2_camo.rvmat"};
+		};
+	};
+	class z_sniper1 : zZombie_new_Base {
+		model = "\ca\characters_e\Ghillie\Ghillie_Overall";
+		hiddenSelections[] = {"Camo", "Camo2", "Camo3"};
+		hiddenSelectionsTextures[] = {"\ca\characters_W_baf\data\Ghillie_Overall2_co.paa", "\ca\characters_W_baf\data\armour_dpm_co.paa", "\ca\characters_W_baf\data\equip_dpm_co.paa"};
+		zombieLoot = "survivor";
+		
+		class Wounds {
+			tex[] = {};
+			mat[] = {"ca\characters_d_baf\Data\armour.rvmat", "ca\characters_d_baf\Data\W1_armour.rvmat", "ca\characters_d_baf\Data\W2_armour.rvmat", "ca\characters_d_baf\Data\camo.rvmat", "ca\characters_d_baf\Data\W1_camo.rvmat", "ca\characters_d_baf\Data\W2_camo.rvmat"};
+		};
+	};
