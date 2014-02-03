@@ -5,7 +5,7 @@ class CfgBuildingLoot {
 		zombieChance = 0.2;
 		minRoaming = 0;
 		maxRoaming = 2;
-		zombieClass[] = {"zZombie_Base","z_hunter","z_teacher","z_suit1","z_suit2","z_worker1","z_worker2","z_worker3","z_villager1","z_villager2","z_villager3"};
+		zombieClass[] = {"zZombie_Base","z_hunter","z_teacher","z_suit1","z_suit2","z_worker1","z_worker2","z_worker3","z_villager1","z_villager2","z_villager3","z_rocker1","z_rocker2","z_rocker3","z_rocker4","z_surv1","z_surv2","z_surv3","z_bandit1","z_bandit2","z_bandit3","z_sniper1"};
 		lootChance = 0;
 		lootPos[] = {};
 		lootPosSmall[] = {};
@@ -20,7 +20,7 @@ class CfgBuildingLoot {
 	class Residential: Default {
 		zombieChance = 0.3;
 		maxRoaming = 2;
-		zombieClass[] = {"zZombie_Base","z_hunter","z_teacher","z_villager1","z_villager2","z_villager3"};
+		zombieClass[] = {"zZombie_Base","z_hunter","z_teacher","z_villager1","z_villager2","z_villager3","z_rocker1","z_rocker2","z_rocker3","z_rocker4","z_surv1","z_surv2","z_surv3"};
 		lootChance = 0.4;
 		lootPos[] = {};
 		itemType[] = {
@@ -316,7 +316,7 @@ class CfgBuildingLoot {
 	class Farm: Default {
 		zombieChance = 0.3;
 		maxRoaming = 3;
-		zombieClass[] = {"zZombie_Base","z_hunter","z_hunter","z_hunter","z_villager1","z_villager2","z_villager3"};
+		zombieClass[] = {"zZombie_Base","z_hunter","z_hunter","z_hunter","z_villager1","z_villager2","z_villager3","z_surv1","z_surv2","z_surv3"};
 		lootChance = 0.5;
 		lootPos[] = {};
 		itemType[] = {
@@ -365,7 +365,7 @@ class CfgBuildingLoot {
 		minRoaming = 2;
 		maxRoaming = 6;
 		zombieChance = 0.3;
-		zombieClass[] = {"zZombie_Base","zZombie_Base","z_teacher","z_suit1","z_suit2"};
+		zombieClass[] = {"zZombie_Base","zZombie_Base","z_teacher","z_suit1","z_suit2","z_bandit1","z_bandit2","z_bandit3","z_rocker1","z_rocker2","z_rocker3","z_rocker4","z_surv1","z_surv2","z_surv3"};
 		itemType[] = {
 			{ "ItemWatch","generic" },
 			{ "ItemCompass","generic" },
@@ -538,7 +538,7 @@ class CfgBuildingLoot {
 	class Military: Default {
 		zombieChance = 0.3;
 		maxRoaming = 6;
-		zombieClass[] = {"z_soldier","z_soldier_heavy","z_policeman"};
+		zombieClass[] = {"z_soldier","z_soldier_heavy","z_policeman","z_camo1"};
 		lootChance = 0.4;
 		lootPos[] = {};
 		itemType[] = {
@@ -609,7 +609,7 @@ class CfgBuildingLoot {
 	class MilitaryIndustrial: Default {
 		zombieChance = 0.3;
 		maxRoaming = 6;
-		zombieClass[] = {"z_soldier","z_soldier_heavy","z_policeman","z_soldier","z_soldier_heavy","z_policeman","z_worker1","z_worker2","z_worker3"};
+		zombieClass[] = {"z_soldier","z_soldier_heavy","z_policeman","z_soldier","z_soldier_heavy","z_policeman","z_worker1","z_worker2","z_worker3","z_camo1"};
 		lootChance = 0.4;
 		lootPos[] = {};
 		itemType[] = {
@@ -688,7 +688,7 @@ class CfgBuildingLoot {
 	class IndustrialMilitary: Default {
 		zombieChance = 0.4;
 		maxRoaming = 6;
-		zombieClass[] = {"z_soldier","z_soldier_heavy","z_policeman","z_soldier","z_soldier_heavy","z_policeman","z_worker1","z_worker2","z_worker3"};
+		zombieClass[] = {"z_soldier","z_soldier_heavy","z_policeman","z_soldier","z_soldier_heavy","z_policeman","z_worker1","z_worker2","z_worker3","z_camo1"};
 		lootChance = 0.5;
 		lootPos[] = {};
 		itemType[] = {
@@ -871,7 +871,7 @@ class CfgBuildingLoot {
 		zombieChance = 0.4;
 		minRoaming = 1;
 		maxRoaming = 3;
-		zombieClass[] = {"z_hunter","z_hunter","z_hunter"};
+		zombieClass[] = {"z_hunter","z_hunter","z_hunter","z_sniper1"};
 		lootChance = 1;
 		lootPos[] = {};
 		itemType[] =	{
@@ -1015,7 +1015,7 @@ class CfgBuildingLoot {
 	class SupplyDrop: Default {
 		zombieChance = 1;
 		maxRoaming = 3;
-		zombieClass[] = {"zZombie_Base","z_hunter","z_hunter","z_hunter","z_villager1","z_villager2","z_villager3","z_doctor","z_soldier_pilot","z_soldier_heavy"};
+		zombieClass[] = {"zZombie_Base","z_hunter","z_hunter","z_hunter","z_villager1","z_villager2","z_villager3","z_doctor","z_soldier_pilot","z_soldier_heavy","z_camo1","z_sniper1","z_bandit1","z_bandit2","z_bandit3" };
 		lootChance = 1;
 		lootPos[] = {};
 		itemType[] = {
