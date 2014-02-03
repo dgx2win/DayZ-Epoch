@@ -59,6 +59,40 @@ class CfgLoot {
 			0.03
 		}
 	};
+	survivor[] = {
+		{
+			"ItemBandage",
+			"ItemPainkiller",
+			"ItemMorphine",
+			"FoodCanFrankBeans",
+			"FoodCanUnlabeled",
+			"ItemSodaEmpty",
+			"ItemSodaCoke",
+			"ItemHeatPack",
+			"ItemBloodbag",
+			"FoodBioMeat",
+			"ItemDocument",
+			"ItemTrashToiletpaper",
+			"ItemHotwireKit",
+			"ItemGoldBar"
+		},
+		{
+			1,
+			0,03,
+			0.03,
+			0.03,
+			0.03,
+			0.3,
+			0.03,
+			0.03,
+			0.03,
+			0.03,
+			0.03,
+			0.3,
+			0.01,
+			0.02
+		}
+	};
 	office2[] = {
 		{
 			"FoodCanUnlabeled",
